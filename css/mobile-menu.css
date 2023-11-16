@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', Arial, sans-serif;
+    }
+
+    .header {
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoimg {
+        width: 12%;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 15%;
+    }
+
+    .logo span {
+        font-size: 24px;
+        font-weight: 100;
+        color: #f28241;
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+
+    .nav-item {
+        margin-right: 20px;
+        padding: 4px;
+    }
+
+    .nav-item1 {
+        border: 1px solid #0095a1;
+        margin-right: 20px;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+    .nav-item2 {
+        border: 1px solid #0095a1;
+        background-color: #0095a1;
+        color: #ffffff;
+        margin-right: 20px;
+        border-radius: 5px;
+        padding: 4px;
+    }
+
+    .navas {
+        text-decoration: none;
+        color: #333333;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .navas1 {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .nav a:hover {
+        color: #f28241;
+    }
+
+    .nav-toggle {
+        font-size: 24px;
+        cursor: pointer;
+        display: block;
+    }
+
+   
+    .mobile-menu {
+        display: none; 
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #ffffff;
+        width: 70%;
+        height: 100%;
+        z-index: 2;
+    
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+
+    .mobile-menu.show a:hover {
+        color: #f28241;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-menu {
+        display: none; 
+    } 
+   
+}
