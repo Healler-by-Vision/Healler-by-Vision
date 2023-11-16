@@ -1,0 +1,89 @@
+nome:
+
+Email:
+
+Senha:
+senha:
+
+data de nascimento:
+
+você é um portador de parkinson?:
+
+você tem ansiedade:
+if sim: qual nivel
+
+o que você pretende melhorar:
+estresse
+autoestima
+sono
+felicidade
+---------------------------------------------------
+<h1>Quem Somos: Healler by Vision<h1>
+<p>Nossa equipe não é apenas competente em suas áreas, mas compartilha uma 
+paixão pela missão de melhorar a saúde mental e o bem-estar. 
+Todos os membros estão comprometidos, trazendo habilidades valiosas para 
+alcançar esse objetivo.</p>
+
+<p>Reconhecemos os desafios enfrentados por quem convive com o Parkinson e as crescentes preocupações
+ com saúde mental na sociedade moderna. 
+Nosso objetivo é oferecer uma solução acessível, sem efeitos colaterais, e de fácil aplicação para melhorar a qualidade de 
+vida dessas pessoas e de seus familiares.</p>
+
+<p> Imagine enfrentar os desafios da saúde mental e do Parkinson com soluções acessíveis e inovadoras. 
+É exatamente isso que oferecemos com o aplicativo <spam>Healler by Vision.</spam></p>
+
+<p>Nosso diferencial está na integração de terapias terapêuticas com realidade 
+virtual, proporcionando uma experiência imersiva única. 
+Não nos limitamos apenas ao Parkinson; nosso aplicativo abrange também módulos
+essenciais de saúde mental, sono saudável e relaxamento.</p>
+
+----------------------------------------------------
+Duvidas do App
+
+Convite Para amigos e familia:
+Para recomendar o Aplicativo para amigos e familia.
+
+perguntas diarias:
+essas perguntas coletam a respota para entender e melhor as experiencias com o app
+como humor do dia a dia entre outros.
+ 
+perfil:
+Local onde suas informações podem ser alteradas por exemplo: foto, E-mail, senha entre outros.
+
+cromoterapia:
+um de nossos metodos para melhora da qualidade de vida
+a cromoterapia é uma terapia que busca usar cores para relaxamento.
+
+historia:
+um local com historias narradas para ajudar a dormir.
+
+Home: 
+nossa tela inicial local onde todas as aplicações estaram localizadas. 
+
+meditações:
+um metodo de relaxamento com musicas, falas e e exercicios de respiração.
+
+terapias RV:
+terapias que usao o oculos de realidade para o controle da marcha no andar.
+
+planos:
+local onde você podera manejar sua assinatura podendo adquirir planos pagos com mais opções 
+de terapias e experiencias.
+
+notificações:
+local onde vc vai encontrar novidades sobre tudo por exemplo de sua assinatura, novas experiencias, e mais.
+
+
+ambientação: caso vc entre em alguma terapia de audio você pode ativar esta opçaõ para a tela ficar no modo paisagens 
+com fundos relaxantes ou só deixar a tela escura mesmo.
+
+
+
+
+
+
+
+
+
+
+
