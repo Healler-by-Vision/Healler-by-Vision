@@ -1,0 +1,103 @@
+html, body {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: #026873;
+}
+
+.geral {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form { 
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20%;
+}
+
+form input {
+    background-color: #f28241;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+form input::placeholder {
+    color: #ffffff;
+}
+
+form button {
+    background-color: #013440;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+} 
+label { 
+    background-color: #f28241;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+} 
+
+option, select { 
+    background-color: #2ab0bf;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+form button:hover {
+    background-color: #2ab0bf;
+}
+
+.geral a {
+    color: #c5d7d9;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+.geral a:hover {
+    color: #f28241;
+}
+
+@media (min-width: 769px) {
+    form {
+        width: 30%;
+    }
+
+    form input {
+        height: 50px;
+    }
+
+    form button {
+        height: 50px;
+    }
+
+    .geral a {
+        font-size: 24px;
+    }
+}
+
+p { 
+    color: #ffffff; 
+    font-size: 14px;
+}

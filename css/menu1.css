@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.header {
+    background-color: #013440;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoimg {
+    width: 12%;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 15%;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 100;
+    color: #f28241;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+    padding: 4px;
+}
+
+.nav-item1 {
+    border: 1px solid #0095a1;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.nav-item2 {
+    border: 1px solid #f28241;
+    background-color: #f28241;
+    color: #013440;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.navas {
+    text-decoration: none;
+    color: #c5d7d9;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navas1 {
+    text-decoration: none;
+    color: #013440;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #f28241;
+}
+.nav-item2:hover { 
+    background-color: #2ab0bf;
+}
+.nav-toggle {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    border-radius: 10px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #013440;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+}
+.additional-content {
+    background-color: #013440;
+    padding: 20px;
+    color: #c5d7d9;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dropdown-content a {
+    color: #c5d7d9; 
+    text-decoration: none; 
+    padding: 8px 12px; 
+    display: block; 
+}
+
+.dropdown-content a:hover {
+    background-color: #f28241;
+    color: #013440; 
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown a:after {
+    
+    display: inline-block;
+    margin-left: 5px;
+}
+
+@media (max-width: 769px) {
+    .nav{
+        display: none; 
+    }
+}
+
+.especmob { 
+    list-style-type: none; 
+    margin-left: 20%;
+    margin-top: 10%; 
+    font-size: large;
+}
